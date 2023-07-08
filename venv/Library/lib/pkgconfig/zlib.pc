@@ -1,0 +1,13 @@
+prefix=D:/My_Projects/Internship_project/Flight Fare Prediction/venv/Library
+exec_prefix=D:/My_Projects/Internship_project/Flight Fare Prediction/venv/Library
+libdir=D:/My_Projects/Internship_project/Flight Fare Prediction/venv/Library/lib
+sharedlibdir=D:/My_Projects/Internship_project/Flight Fare Prediction/venv/Library/lib
+includedir=D:/My_Projects/Internship_project/Flight Fare Prediction/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
