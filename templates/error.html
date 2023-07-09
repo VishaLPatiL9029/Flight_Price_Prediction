@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Error</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Price Prediction</title>
+
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+    <!-- css -->
+    <link rel="stylesheet" href="static/css/styles.css">
+
+   <!-- Background Image -->
+   <style>
+    body {
+        background-image: url("static/images/Flight_image.jpg");
+        background-size: cover;
+    }
+
+    .navbar {
+        background-color: #343a40; /* Customize the background color of the navbar */
+        border-bottom: 2px solid #fff; /* Add a border to the bottom of the navbar */
+    }
+
+    .navbar-brand {
+        color: #fff; /* Customize the color of the navbar brand text */
+    }
+
+    form {
+        margin-top: 50px; /* Add margin to the form */
+    }
+
+    .card {
+        margin-bottom: 20px; /* Add margin between the cards */
+    }
+
+    .card-title {
+        color: #343a40; /* Customize the color of the card title */
+    }
+
+    input[type="datetime-local"],
+    select {
+        width: 100%; /* Make the input and select elements full width */
+        padding: 8px; /* Add padding to the input and select elements */
+        border-radius: 4px; /* Add border-radius to the input and select elements */
+        border: 1px solid #ced4da; /* Add border to the input and select elements */
+    }
+
+    .btn-secondary {
+        background-color: #343a40; /* Customize the background color of the submit button */
+        border-color: #343a40; /* Customize the border color of the submit button */
+    }
+
+    .btn-secondary:hover {
+        background-color: #23272b; /* Customize the background color of the submit button on hover */
+        border-color: #23272b; /* Customize the border color of the submit button on hover */
+    }
+
+    h3 {
+        color: #343a40; /* Customize the color of the prediction text */
+    }
+
+    p {
+        color: #2df201; /* Customize the color of the footer text */
+    }
+
+    .error-message {
+        color: red; /* Customize the color of the error message text */
+    }
+</style>
+
+
+</head>
+<body>
+    <h1>Error</h1>
+    <p class="error-message">{{ error_message }}</p>
+</body>
+</html>

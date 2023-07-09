@@ -14,3 +14,9 @@ a {
 a:hover {
     color: #614848;
   }
+
+.card{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 255, 153);
+  }
